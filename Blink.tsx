@@ -28,13 +28,11 @@ export default class Blink extends Component<BlinkProps, BlinkState> {
 
 
    render() {
-      
-
       return (
          <Text>
             {
             this.state.isShowingText &&
-            this.props.text
+               this.props.text
             }
          </Text>
       );

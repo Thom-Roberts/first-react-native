@@ -3,6 +3,7 @@ import { Text, View } from 'react-native';
 import Bananas from  './Bananas';
 import Greetings from './Greetings';
 import Blink from "./Blink";
+import LotsOfStyles from "./Styled";
 
 export default class HelloWorldApp extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class HelloWorldApp extends Component {
         <Greetings name='Thom' />
         <Greetings name='Bennie' />
         <Blink text={'I\'m a piece of flashing text'} />
+        <LotsOfStyles />
       </View>
     );
   }
